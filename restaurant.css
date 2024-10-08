@@ -1,0 +1,31 @@
+.container{
+    margin :75px;
+    width:500px;
+    background-color:lavender;
+    border-radius: 15px;
+    padding-top:20px;
+    border:2px solid black;
+    
+    
+    
+ }
+ #result {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+ }
+ body{
+    background-color:white;
+ }
+ #result p{
+    height: 27px;
+    border:1px solid black;
+    padding-top:8px;
+    width:400px;
+    text-align:center;
+
+ }
+ tr{
+    height:29px;
+ }
+ 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reservations</title>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+    <center>
+    <div class="container">
+        <h1>Customer Reservations</h1>
+        <table>
+            
+            <tr>
+                <td>Customer Name</td> <td> <input type="text" id="name" placeholder="Enter the name" required> </td>
+            </tr>
+            
+            
+            <tr>
+                <td>Number of guests</td> <td> <input type="number" id="guests" placeholder="Enter the no of guests" required> </td>
+            </tr>
+            
+            
+            <tr>
+                <td>Reservation Time</td> <td> <input type="time" id="time" placeholder="Enter the time" required> </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                <button id="add" onclick="reservation()">Book</button>
+                <button id="delete" onclick="unreserving()">Cancel</button>
+                </td>
+            </tr>
+            
+        
+        </table>
+        
+        <div id="result"></div>
+    </div>
+    
+
+    
+    </center>
+    <script src="restaurant.js"></script>
+
+</body>
+</html>
